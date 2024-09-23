@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.621" tests="16" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\manoj.b\eclipse-workspace\PlaywrightJavaTestNGHybridFramework\target\test-classes;C:\Users\manoj.b\eclipse-workspace\PlaywrightJavaTestNGHybridFramework\target\classes;C:\Users\manoj.b\.m2\repository\com\microsoft\playwright\playwright\1.40.0\playwright-1.40.0.jar;C:\Users\manoj.b\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\manoj.b\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\manoj.b\.m2\repository\com\microsoft\playwright\driver\1.40.0\driver-1.40.0.jar;C:\Users\manoj.b\.m2\repository\com\microsoft\playwright\driver-bundle\1.40.0\driver-bundle-1.40.0.jar;C:\Users\manoj.b\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\manoj.b\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\manoj.b\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\manoj.b\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\manoj.b\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\manoj.b\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\manoj.b\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\manoj.b\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\manoj.b\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\manoj.b\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\manoj.b\AppData\Local\Temp\surefire4720547532478676439\surefirebooter-20240923132614358_3.jar C:\Users\manoj.b\AppData\Local\Temp\surefire4720547532478676439 2024-09-23T13-26-14_022-jvmRun1 surefire-20240923132614358_1tmp surefire_0-20240923132614358_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\manoj.b\eclipse-workspace\PlaywrightJavaTestNGHybridFramework\target\test-classes;C:\Users\manoj.b\eclipse-workspace\PlaywrightJavaTestNGHybridFramework\target\classes;C:\Users\manoj.b\.m2\repository\com\microsoft\playwright\playwright\1.40.0\playwright-1.40.0.jar;C:\Users\manoj.b\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\manoj.b\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\manoj.b\.m2\repository\com\microsoft\playwright\driver\1.40.0\driver-1.40.0.jar;C:\Users\manoj.b\.m2\repository\com\microsoft\playwright\driver-bundle\1.40.0\driver-bundle-1.40.0.jar;C:\Users\manoj.b\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\manoj.b\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\manoj.b\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\manoj.b\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\manoj.b\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\manoj.b\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\manoj.b\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\manoj.b\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\manoj.b\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\manoj.b"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Users\manoj.b\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\manoj.b\eclipse-workspace\PlaywrightJavaTestNGHybridFramework"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\manoj.b\AppData\Local\Temp\surefire4720547532478676439\surefirebooter-20240923132614358_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9"/>
+    <property name="user.name" value="manoj.b"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-22.0.2+9"/>
+    <property name="localRepository" value="C:\Users\manoj.b\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\manoj.b\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\manoj.b\eclipse-workspace\PlaywrightJavaTestNGHybridFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\manoj.b\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/manoj.b/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/manoj.b/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Program Files\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\manoj.b\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\RedHat\java-11-openjdk-11.0.23-2\bin;C:\Program Files\RedHat\java-11-openjdk-11.0.24.0.8-1\bin;C:\Users\manoj.b\AppData\Local\Microsoft\WindowsApps;C:\Users\manoj.b\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\manoj.b\AppData\Local\Programs\Git\cmd;C:\Users\manoj.b\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\manoj.b\AppData\Local\GitHubDesktop\bin;C:\Program Files\RedHat\java-11-openjdk-11.0.23-2\bin;;C:\Users\manoj.b\OneDrive - Tavant Technologies\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="22.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="homePageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="0.018">
+    <system-out><![CDATA[...
+... TestNG 7.8.0 by Cédric Beust (cedric@beust.com)
+...
+
+Test Suite started!
+Test Suite started!
+Test Suite started!
+Test Suite started!
+Browser name is : chromium
+Browser name is : chrome
+Browser name is : firefox
+Browser name is : edge
+loginPageNavigationTest started!
+homePageTitleTest started!
+The title of the page : Your Store
+homePageTitleTest passed!
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="homePageTitleTest" classname="com.qa.opencart.tests.HomePageTest" time="0.073">
+    <system-out><![CDATA[appLoginTest started!
+App Creds: manubalu50003@gmail.com : Manoj@4728
+homePageTitleTest started!
+The title of the page : Your Store
+homePageTitleTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="homePageUrlTest" classname="com.qa.opencart.tests.HomePageTest" time="0.004">
+    <system-out><![CDATA[homePageUrlTest started!
+The Url of the page : https://naveenautomationlabs.com/opencart/
+homePageUrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="homePageUrlTest" classname="com.qa.opencart.tests.HomePageTest" time="0.004">
+    <system-out><![CDATA[homePageUrlTest started!
+The Url of the page : https://naveenautomationlabs.com/opencart/
+homePageUrlTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searcTest[Mackbook](1)" classname="com.qa.opencart.tests.HomePageTest" time="0.4">
+    <system-out><![CDATA[searcTest started!
+searcTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searcTest[Mackbook](1)" classname="com.qa.opencart.tests.HomePageTest" time="0.808">
+    <system-out><![CDATA[searcTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searcTest[iMac](2)" classname="com.qa.opencart.tests.HomePageTest" time="1.627">
+    <system-out><![CDATA[searcTest started!
+searcTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searcTest[iMac](2)" classname="com.qa.opencart.tests.HomePageTest" time="1.126">
+    <system-out><![CDATA[Test Suite is ending!
+searcTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="searcTest[Samsung](3)" classname="com.qa.opencart.tests.HomePageTest" time="0.238">
+    <system-out><![CDATA[searcTest started!
+Test Suite is ending!
+searcTest passed!
+loginPageNavigationTest started!
+]]></system-out>
+  </testcase>
+  <testcase name="searcTest[Samsung](3)" classname="com.qa.opencart.tests.HomePageTest" time="0.545">
+    <system-out><![CDATA[appLoginTest started!
+App Creds: manubalu50003@gmail.com : Manoj@4728
+searcTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageNavigationTest" classname="com.qa.opencart.tests.LoginPageTest" time="1.082">
+    <system-out><![CDATA[searcTest started!
+Page actual title : Account Login
+loginPageNavigationTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageNavigationTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.651">
+    <system-out><![CDATA[searcTest started!
+Page actual title : Account Login
+loginPageNavigationTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="forgotPasswordLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.018">
+    <system-out><![CDATA[forgotPasswordLinkExistTest started!
+forgotPasswordLinkExistTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="forgotPasswordLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.173">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.qa.opencart.tests.LoginPageTest.forgotPasswordLinkExistTest(LoginPageTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]></failure>
+    <system-out><![CDATA[forgotPasswordLinkExistTest started!
+forgotPasswordLinkExistTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="appLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.537">
+    <system-out><![CDATA[searcTest started!
+User is logged in successfully.....
+appLoginTest passed!
+]]></system-out>
+  </testcase>
+  <testcase name="appLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="1.321">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.qa.opencart.tests.LoginPageTest.appLoginTest(LoginPageTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]></failure>
+    <system-out><![CDATA[Test Suite is ending!
+appLoginTest failed!
+]]></system-out>
+  </testcase>
+</testsuite>
